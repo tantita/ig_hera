@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>InstafeedJS</title>
+	<script src="instafeed.min.js"></script>
+</head>
+<body>
+
+	<div id="instafeed"></div> 
+
+	<script type="text/javascript">
+	    var feed = new Instafeed({
+	        get: 'tagged',
+	        tagName: 'awesome',
+	        accessToken: '94764.1677ed0.c6256a27eddf41709ddf29af3469a4e5'
+	    });
+	    feed.run();
+	</script>
+</body>
+</html>
